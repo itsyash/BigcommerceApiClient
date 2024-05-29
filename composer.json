@@ -1,0 +1,23 @@
+{
+    "name": "itsyashu/bigcommerce-api-sdk",
+    "description": "A PHP client library for BigCommerce API",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itsyashu\\BigcommerceApiSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yash Chaudhari",
+            "email": "ychaudhari@sticky.io"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
